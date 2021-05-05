@@ -1,0 +1,246 @@
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(/font/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: OpenSans-Reguler;
+  src: url(/font/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url(/font/OpenSans-SemiBold.ttf);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-profile {
+  width: 100%;
+  height: 550px;
+  background-color: #3d84b8;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  padding: 10px 5%;
+}
+
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  margin: 30px;
+  font-family: OpenSans-Bold;
+  color: #fafafa;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+nav ul li a:hover {
+  color: #224763;
+}
+
+.profile {
+  border-radius: 50%;
+  margin-top: 70px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-profile {
+  color: #fafafa;
+  font-family: OpenSans-Bold;
+  text-align: center;
+}
+
+.text-profile h1 {
+  font-size: 24px;
+}
+
+.text-profile h3 {
+  margin-top: -15px;
+  font-size: 18px;
+}
+
+.about-container {
+  width: 80%;
+  height: 200px;
+  background-color: #fafafa;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin: -5% auto 10px auto;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px;
+}
+
+.about-container .about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text {
+  width: 270px;
+  margin: 20px;
+}
+.about-text-univ {
+  width: 300px;
+  margin: 20px;
+}
+.about-text-toga {
+  margin: 20px;
+}
+
+.title {
+  font-family: OpenSans-SemiBold;
+  font-size: 24px;
+}
+
+.content {
+  font-family: OpenSans-Reguler;
+  font-size: 16px;
+  margin-top: -25px;
+}
+
+.section-tentang {
+  padding: 50px;
+}
+
+.title-content {
+  font-family: OpenSans-Bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.tentang-text {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.tentang-text .text-1 {
+  text-align: end;
+  margin: 0px 20px 0px;
+}
+.tentang-text .text-2 {
+  text-align: start;
+  margin: 0px 20px 0px;
+}
+
+.pendidikan {
+  display: flex;
+  justify-content: center;
+}
+
+.pendidikan .img-pendidikan {
+  margin-top: -50px;
+}
+
+.pendidikan .content-pendidikan {
+  margin-right: 200px;
+}
+
+.content-pendidikan .title {
+  font-family: OpenSans-SemiBold;
+  font-size: 18px;
+}
+
+.content-pendidikan .text {
+  font-family: OpenSans-Reguler;
+  font-size: 16px;
+}
+
+.content-pendidikan ul:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.section-galeri {
+  background-color: #e5e5e5;
+  padding: 10px 0px 0px;
+}
+
+.content-galeri {
+  display: flex;
+  margin: auto;
+  overflow: auto;
+  padding: 10px 50px 0px;
+}
+
+.galeri {
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 20%;
+  background-color: white;
+  border-radius: 10px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.galeri img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.galeri .text {
+  margin-top: -20px;
+  padding: 0px 10px 0px;
+}
+
+.galeri .text .title {
+  font-size: 18px;
+  padding: 10px 10px 10px;
+}
+
+.section-galeri svg {
+  margin-bottom: -10px;
+}
+
+.section-kontak {
+  margin-top: -70px;
+  padding: 10px 10px 50px;
+  background-color: #fafafa;
+}
+
+.sosmed ul {
+  display: flex;
+  justify-content: center;
+  margin-left: -25px;
+}
+
+.sosmed ul li {
+  margin: 10px;
+}
+
+footer {
+  background: #3d84b8;
+  width: 100%;
+  height: 50px;
+  padding: 5px 0px 5px;
+}
+
+footer h2 {
+  font-family: OpenSans-SemiBold;
+  color: #fafafa;
+  font-size: 18px;
+  text-align: center;
+}
